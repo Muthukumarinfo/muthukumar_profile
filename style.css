@@ -185,7 +185,7 @@ body { background: var(--smoky-black); }
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  gap: 1rem;
+  gap: 10px;
 }
 
 .skill-item {
@@ -201,6 +201,7 @@ body { background: var(--smoky-black); }
 .skill-item img {
   height: 24px;
   width: 24px;
+  border-radius: 6px;
 }
 
 .skill-item span {
